@@ -38,3 +38,9 @@ func Fuzz_random_acttwo(data []byte) int {
 
 	return 1
 }
+
+import (
+	"github.com/lightningnetwork/lnd/brontide"
+)
+
+package brontidefuzz
